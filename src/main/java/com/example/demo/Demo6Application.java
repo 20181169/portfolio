@@ -16,20 +16,6 @@ public class Demo6Application {
 		SpringApplication.run(Demo6Application.class, args);
 	}
 		
-//	@RequestMapping("/")
-//	public String main(Model model) {
-//		model.addAttribute("data", "hello rozy~!");
-//		return "indesdasdx.html";
-//	}
-//	@GetMapping(value = "/demo")
-//	public String doGetHelloWorldDemo() {
-//		return "Hello World (Demo)";
-//	}
-//		
-//		@GetMapping("/home")
-//		public String home() {
-//			return "content/home";
-//		}
 	
 		@GetMapping("randomname")
 		public String randomname() {
