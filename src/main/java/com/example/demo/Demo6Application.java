@@ -21,6 +21,11 @@ public class Demo6Application {
 		public String randomname() {
 		    return "randomname";
 		}
+		
+		@GetMapping("body")
+		public String body() {
+		    return "body";
+		}
 	
 
 }
